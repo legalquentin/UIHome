@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/3.3.7/css/bootstrap.min.css}"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
+    <title>UIHome Error</title>
+</head>
+<body>
+<div style="margin-left: 20px;">
+    <h1>UIHome</h1>
+
+    <p>error :</p>
+    <span th:text="${status}">error</span>
+    <span th:text="${error}">error</span>
+    <br/>
+    <span th:text="${message}">error</span>
+    <span th:text="${path}">error</span>
+    <span th:text="${time}">error</span>
+</div>
+</body>
+<script type="text/javascript" th:src="@{/js/alert.js}"></script>
+</html>
