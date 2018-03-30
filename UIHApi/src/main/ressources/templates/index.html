@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/3.3.7/css/bootstrap.min.css}"/>
+    <!--<link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/3.3.7/css/bootstrap.min.css}"/>-->
+    <link rel="stylesheet" type="text/css" th:href="@{/webjars/uikit/2.26.3/css/uikit.min.css}"/>
     <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
     <title>UIHome API</title>
 </head>
 <body>
-<div style="margin-left: 20px;">
     <h1>UIHome</h1>
 
     <p>test something that's : <span th:text="${data}">sucks</span></p>
-</div>
 </body>
+
+<script type="text/javascript" th:src="@{/webjars/uikit/2.26.3/js/uikit.min.js}"></script>
 <script type="text/javascript" th:src="@{/js/alert.js}"></script>
+
 </html>

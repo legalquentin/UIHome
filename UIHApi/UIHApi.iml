@@ -53,5 +53,6 @@
     <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy:2.4.13" level="project" />
     <orderEntry type="library" name="Maven: org.webjars:bootstrap:3.3.7" level="project" />
     <orderEntry type="library" name="Maven: org.webjars:jquery:3.2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars:uikit:2.26.3" level="project" />
   </component>
 </module>

@@ -1,6 +1,5 @@
 package com.dev.UIHome;
 
-import org.testng.annotations.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
@@ -23,10 +22,6 @@ public class AppTest
     /**
      * @return the suite of tests being tested
      */
-    public static Test suite()
-    {
-        return (Test) new TestSuite( AppTest.class );
-    }
 
     /**
      * Rigourous Test :-)
